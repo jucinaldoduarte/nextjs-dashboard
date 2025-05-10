@@ -1,3 +1,0 @@
-allowedPackages:
-  - name: bcrypt
-  - name: sharp
