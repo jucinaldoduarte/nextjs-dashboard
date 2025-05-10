@@ -1,7 +1,9 @@
 {
-  "build": {
-    "env": {
-      "Pnpmfile": "pnpmfile.js"
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
     }
-  }
+  ],
+  "installCommand": "pnpm install"
 }
